@@ -2,11 +2,11 @@
   "private": true,
   "name": "AdamZaier",
   "version": "0.1.0",
-  "homepage": "https://vantadam.github.io",
+  "homepage": "https://vantadam.github.io/me",
   "scripts": {
     "build": "react-scripts --openssl-legacy-provider build",
     "predeploy": "npm run build",
-    "deploy": "master -d build",
+    "deploy": "gh-pages -b master -d build",
     "eject": "react-scripts eject",
     "start": "react-scripts --openssl-legacy-provider start",
     "test": "react-scripts test"
