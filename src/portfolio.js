@@ -2,7 +2,7 @@
 
 // Website related settings
 const settings = {
-  isSplash: true, // Change this to false if you don't want Splash screen.
+  isSplash: false, // Change this to false if you don't want Splash screen.
 };
 
 //SEO Related settings
@@ -52,14 +52,14 @@ const socialMediaLinks = [
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
- 
+
   {
     name: "Gmail",
     link: "mailto:adem.zaier.9@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
- 
+
   {
     name: "Facebook",
     link: "https://www.facebook.com/eyinzee/",
@@ -76,7 +76,6 @@ const socialMediaLinks = [
 
 const skills = {
   data: [
-   
     {
       title: "Full Stack Development",
       fileName: "FullStackImg",
@@ -165,7 +164,7 @@ const skills = {
             color: "#02569B",
           },
         },
-       
+
         {
           skillName: "NestJS",
           fontAwesomeClassname: "simple-icons:nestjs",
@@ -252,8 +251,8 @@ const skills = {
       fileName: "DesignImg",
       skills: [
         "⚡ Crafting visually compelling brand identities that resonate with target audiences",
-  "⚡ Designing custom logos from scratch and refining existing ones to perfection",
-  "⚡ Developing marketing materials and digital art to enhance brand visibility and engagement"
+        "⚡ Designing custom logos from scratch and refining existing ones to perfection",
+        "⚡ Developing marketing materials and digital art to enhance brand visibility and engagement",
       ],
       softwareSkills: [
         {
@@ -263,7 +262,7 @@ const skills = {
             color: "#0000FF",
           },
         },
-       
+
         {
           skillName: "Adobe Illustrator",
           fontAwesomeClassname: "simple-icons:adobeillustrator",
@@ -373,7 +372,6 @@ const degrees = {
       website_link: "https://isima.rnu.tn/",
     },
   ],
-  
 };
 
 const certifications = {
@@ -425,54 +423,55 @@ const experience = {
             "Delivered training in graphic design, including Photoshop, Illustrator, typography, color theory, animation, logo design, brand guidelines, and creating mockups. Focused on teaching students the principles of effective design and fostering creativity.",
           color: "#FFC300",
         },
-       
       ],
     },
     {
-      "title": "Internships",
-      "experiences": [
+      title: "Internships",
+      experiences: [
         {
-          "title": "Web Development",
-          "company": "Seekmake",
-          "company_url": "https://seekmake.com",
-          "logo_path": "seekmake.png",
-          "duration": "July 2024 - September 2024",
-          "location": "Remote",
-          "description": "Frontend development using Angular and backend development using Nest.",
-          "color": "#000000"
+          title: "Web Development",
+          company: "Seekmake",
+          company_url: "https://seekmake.com",
+          logo_path: "seekmake.png",
+          duration: "July 2024 - September 2024",
+          location: "Remote",
+          description:
+            "Frontend development using Angular and backend development using Nest.",
+          color: "#000000",
         },
         {
-          "title": "Mobile Developer",
-          "company": "Evacom",
-          "company_url": "https://evacom.info",
-          "logo_path": "evacom.png",
-          "duration": "February 2022 - June 2022",
-          "location": "Tunis",
-          "description": "Designed an online booking mobile app using Photoshop and Illustrator. Developed the app using React Native and integrated it into their ecosystem.",
-          "color": "#000000"
+          title: "Mobile Developer",
+          company: "Evacom",
+          company_url: "https://evacom.info",
+          logo_path: "evacom.png",
+          duration: "February 2022 - June 2022",
+          location: "Tunis",
+          description:
+            "Designed an online booking mobile app using Photoshop and Illustrator. Developed the app using React Native and integrated it into their ecosystem.",
+          color: "#000000",
         },
         {
-          "title": "Graphic Designer",
-          "company": "L'Expert",
-          "company_url": "https://expert.com.tn",
-          "logo_path": "lexpert.png",
-          "duration": "July 2021",
-          "location": "Gabes",
-          "description": "Worked on graphic design, customer experience, and brand planning.",
-          "color": "#000000"
+          title: "Graphic Designer",
+          company: "L'Expert",
+          company_url: "https://expert.com.tn",
+          logo_path: "lexpert.png",
+          duration: "July 2021",
+          location: "Gabes",
+          description:
+            "Worked on graphic design, customer experience, and brand planning.",
+          color: "#000000",
         },
         {
-          "title": "Designer and Video Editor",
-          "company": "Radio Elyssa FM",
-          "company_url": "https://elyssafm.tn",
-          "logo_path": "ellysa.jpg",
-          "duration": "August 2021",
-          "location": "Gabes",
-          "description": "Worked in the digital department on content creation, design, and video editing.",
-          "color": "#000000"
-        }
-   
-    
+          title: "Designer and Video Editor",
+          company: "Radio Elyssa FM",
+          company_url: "https://elyssafm.tn",
+          logo_path: "ellysa.jpg",
+          duration: "August 2021",
+          location: "Gabes",
+          description:
+            "Worked in the digital department on content creation, design, and video editing.",
+          color: "#000000",
+        },
       ],
     },
     {
@@ -545,8 +544,7 @@ const experience = {
           color: "#9400D3",
         },
       ],
-    }
-    
+    },
   ],
 };
 
@@ -557,7 +555,6 @@ const projectsHeader = {
     "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
   avatar_image_path: "projects_image.svg",
 };
-
 
 const devprojHeader = {
   title: "Dev Projects",
@@ -570,7 +567,6 @@ const designprojHeader = {
   avatar_image_path: "projects_image.svg",
 };
 
-
 const devproj = {
   data: [
     {
@@ -578,15 +574,16 @@ const devproj = {
       name: "Socialite",
       createdAt: "2024-12-25T00:00:00Z",
       description: "Modern Social media web app created with React and Nest",
-      tech:"ReactJS, NestJS",
+      tech: "ReactJS, NestJS",
       url: "https://github.com/vantadam/Social-react-nest",
     },
     {
       id: "evamobile",
       name: "EvaMobile",
       createdAt: "2022-06-22T00:00:00Z",
-      description: "Cross-platform Mobile application for booking flights and trips",
-      tech:"React Native, Expo, Firebase",
+      description:
+        "Cross-platform Mobile application for booking flights and trips",
+      tech: "React Native, Expo, Firebase",
       url: "https://github.com/vantadam/Evamobile",
     },
     {
@@ -594,7 +591,7 @@ const devproj = {
       name: "LeafAI",
       createdAt: "2025-01-13T00:00:00Z",
       description: "Plant disease detection API using Machine Learning",
-      tech:"Python, Flask, Tenserflow, Pandas, Seaborn",
+      tech: "Python, Flask, Tenserflow, Pandas, Seaborn",
       url: "https://github.com/vantadam/LeafAi",
     },
   ],
@@ -606,22 +603,28 @@ const designproj = {
       id: "tektopia",
       name: "TEKTOPIA",
       createdAt: "2024",
-      description: "designs for digital and Print and the whole brand guideline for the event",
-      url: "https://drive.google.com/drive/folders/1dSLCStEIKjo7og_UcrByCeNPOYAAd4no?usp=sharing",
+      description:
+        "designs for digital and Print and the whole brand guideline for the event",
+      url:
+        "https://drive.google.com/drive/folders/1dSLCStEIKjo7og_UcrByCeNPOYAAd4no?usp=sharing",
     },
     {
       id: "mic",
       name: "Microsoft ISIMa Club Marketing",
       createdAt: "2023",
-      description: "social media designs animated videos for events and marketing campaigns",
-      url: "https://drive.google.com/drive/folders/1SskslGgDF5PsRA3bbscnz6IZ-mkhI5kL?usp=sharing",
+      description:
+        "social media designs animated videos for events and marketing campaigns",
+      url:
+        "https://drive.google.com/drive/folders/1SskslGgDF5PsRA3bbscnz6IZ-mkhI5kL?usp=sharing",
     },
     {
       id: "lanui",
       name: "La nuit de l'info at TEK-UP",
       createdAt: "2023",
-      description: "Marketing campaing that includes videos, digital posts and prints",
-      url: "https://drive.google.com/drive/folders/1Fj3IRZofDPB_gSBZVtxXsQRgQcZdEP29?usp=sharing",
+      description:
+        "Marketing campaing that includes videos, digital posts and prints",
+      url:
+        "https://drive.google.com/drive/folders/1Fj3IRZofDPB_gSBZVtxXsQRgQcZdEP29?usp=sharing",
     },
   ],
 };
@@ -668,8 +671,6 @@ export {
   certifications,
   experience,
   projectsHeader,
-
-
   contactPageData,
   devproj,
   devprojHeader,

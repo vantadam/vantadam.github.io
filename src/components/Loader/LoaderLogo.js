@@ -1,8 +1,7 @@
 import React from "react";
 import "./LoaderLogo.css";
-import Lottie from 'react-lottie';
-import animationData from './loader.json';
-
+import Lottie from "react-lottie";
+import animationData from "./loader.json";
 
 class LogoLoader extends React.Component {
   render() {
@@ -12,18 +11,10 @@ class LogoLoader extends React.Component {
       autoplay: true,
       animationData: animationData,
       rendererSettings: {
-        preserveAspectRatio: "xMidYMid slice"
-      }
+        preserveAspectRatio: "xMidYMid slice",
+      },
     };
-    return (
-      <div>
-      <Lottie 
-	    options={defaultOptions}
-        height={400}
-        width={400}
-      />
-    </div>
-    );
+    return <div></div>;
   }
 }
 
