@@ -2,7 +2,7 @@
   "private": true,
   "name": "adamzaier",
   "version": "0.1.0",
-  "homepage": "https://www.adamzaier.me",
+  "homepage": "https://www.adamzaier.me/home",
   "scripts": {
     "build": "react-scripts --openssl-legacy-provider build",
     "predeploy": "npm run build",

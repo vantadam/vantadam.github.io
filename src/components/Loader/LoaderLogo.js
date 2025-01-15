@@ -1,6 +1,5 @@
 import React from "react";
 import "./LoaderLogo.css";
-import Lottie from "react-lottie";
 import animationData from "./loader.json";
 
 class LogoLoader extends React.Component {
